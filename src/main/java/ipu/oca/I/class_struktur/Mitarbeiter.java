@@ -4,8 +4,11 @@ public class Mitarbeiter {
 	public String vorname;
 	public String haarfarbe;
 	public Haustiere haustier;
+	public int alter;
+	public static String abteilung;
 
-	public Mitarbeiter() {
+	public Mitarbeiter(String name) {
+		this.vorname = name;
 	}
 
 	public Mitarbeiter(String vornameInput, String haarfarbeInput) {
