@@ -6,10 +6,6 @@ public class Sport {
 	private String equipment;
 	private String platz;
 
-	{
-		sportart = "Fussbal";
-	}
-
 	public Sport(String sportart) {
 
 		this.sportart = sportart;

@@ -31,13 +31,8 @@ public class Ausfuehren {
 		System.out.println("ist " + einmensch.vorname + " verheiratet: " + einmensch.verheiratet);
 		System.out.println("ist " + andererMensch.vorname + " verheiratet: " + andererMensch.verheiratet);
 
-		Haustier hund = new Haustier();
-		hund.name = "Fluffy";
+		Haustier hund = new Haustier("Fluffy");
 		hund.mitHaar = true;
-
-		Haustier hund2 = new Haustier();
-		hund2.name = "Bombardier";
-		hund2.mitHaar = true;
 
 		andererMensch.liebling = hund;
 		System.out.println(andererMensch.vorname + " hat ein Tier namens " + andererMensch.liebling.name);
