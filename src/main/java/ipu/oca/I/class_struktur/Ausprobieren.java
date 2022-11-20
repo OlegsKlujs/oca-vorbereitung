@@ -16,7 +16,7 @@ public class ausprobieren {
 //
 //		Mitarbeiter alex = new Mitarbeiter();
 //		alex.vorname = "Alex";
-//		alex.haarfarbe = "Grün";
+//		alex.haarfarbe = "GrÃ¼n";
 //
 ////		System.out.println(alex.vorname + " hat die Haarfarbe: " + alex.haarfarbe);
 //
@@ -35,6 +35,14 @@ public class ausprobieren {
 
 		System.out.println("Demo: " + Mitarbeiter.abteilung);
 		bla = mitarbeiter2;
+
+		String testString = "true";
+		boolean test3 = Boolean.parseBoolean(testString);
+		test3 = false;
+
+		String testString3 = "12";
+		int test4 = Integer.parseInt(testString3);
+
 	}
 
 	public void testMethode() {
